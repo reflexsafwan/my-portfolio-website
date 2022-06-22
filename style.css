@@ -1,5 +1,6 @@
 body{
     font-family: 'Arimo', sans-serif;
+    margin:0px;
 }
 h1{
     font-size: 60px;
@@ -7,23 +8,31 @@ h1{
 .adding_color{
     color:coral;
 }
-p{
-    font-variant:justify;
-    text-align: justify;
-}
-button{
-    background-color: #E38C6E;
-    width: 100px;
-    height: 50px;
-
-}
 .half-width{
     width: 40%;
     float:left;
-    margin-right: 5%;
+    margin-left: 5%;
     padding-left: 2%;
 
 }
 .half-width img{
     width: 100%;
+}
+.baground-pic{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+}
+.link-button{
+    text-decoration: none;
+    padding: 10px 5px;
+    background-color: orange;
+    background-image: linear-gradient(50deg,lightsalmon tomato);
+    border-radius: 5px;
+    font-weight: 700px;
+    color:white;
+
+
 }
